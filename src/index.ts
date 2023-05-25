@@ -1,6 +1,14 @@
 type hero = {
     name: string;
-    vulto: string;
+    nick: string;
 };
 
-console.log("Olá mundo");
+function printarObjetos(pessoa: hero){
+    console.log(pessoa);
+
+}
+
+printarObjetos({
+        name: "Peter Parker",
+        nick: "SpiderMan"
+    });
