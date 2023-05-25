@@ -1,14 +1,14 @@
-type hero = {
-    name: string;
-    nick: string;
+type heroi = {
+    nome: string;
+    vulgo: string;
 };
 
-function printarObjetos(pessoa: hero){
+function printarHeroi(pessoa: heroi){
     console.log(pessoa);
 
 }
 
-printarObjetos({
-        name: "Peter Parker",
-        nick: "SpiderMan"
-    });
+printarHeroi({
+    nome:"Peter Parker",
+    vulgo: "Homem-Aranha",
+});
